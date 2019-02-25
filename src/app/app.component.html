@@ -1,21 +1,37 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/cli">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
+<aui-header>
+    <div auiHeaderContent>
+        <div auiHeaderLogo class="o-header__wrapper">
+            <aui-logo src="https://a-ui.github.io/core_branding_scss/images/a-logo.svg"></aui-logo>
+        </div>
+    </div>
 
-<router-outlet></router-outlet>
+    <div auiHeaderMenuItem>
+        <a href="/">
+            <button class="a-button a-button--navigation u-hide-on-mobile is-active">
+                <span>Home</span>
+            </button>
+        </a>
+    </div>
+</aui-header>
+<main class="u-wrapper">
+    <div class="u-container u-margin-top-xx u-margin-bottom-lg" role="main">
+        <div class="row">
+            <div class="col-xs-12">
+              <h1 class="u-margin-top-xl">Hello Angular!</h1>
+              <h2 class="h4 u-margin-top">Handy resources:</h2>
+              <ul class="a-list">
+                <li>ACPaaS UI homepage: <a href="https://acpaas-ui.digipolis.be/home" target="_blank" rel="noopener noreferrer" class="has-icon-right">https://acpaas-ui.digipolis.be<i class="fa fa-external-link"></i></a></li>
+                <li>ACPaaS UI components: <a href="https://digipolisantwerp.github.io/acpaas-ui_react/" target="_blank" rel="noopener noreferrer" class="has-icon-right">https://digipolisantwerp.github.io/acpaas-ui_react/<i class="fa fa-external-link"></i></a></li>
+                <li>Core Branding: <a href="https://a-ui.github.io/core_branding_scss/" target="_blank" rel="noopener noreferrer" class="has-icon-right">https://a-ui.github.io/core_branding_scss/<i class="fa fa-external-link"></i></a></li>
+              </ul>
+            </div>
+          </div>
+    </div>
+</main>
+<aui-footer>
+  <div auiFooterBottom>
+      <aui-subfooter>
+          <aui-copyright domain="Stad Antwerpen"></aui-copyright>
+      </aui-subfooter>
+    </div>
+</aui-footer>
